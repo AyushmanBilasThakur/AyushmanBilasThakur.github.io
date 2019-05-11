@@ -169,21 +169,120 @@ body {
   color: #6A89CC;
 }
 
+.container .skills {
+  background-color: #222;
+  padding: 20px 0px;
+  border-radius: 20px;
+}
+
+.container .skills h1 {
+  text-align: center;
+}
+
+.container .skill-list {
+  text-align: center;
+}
+
 .container .skill-list h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   padding: 10px 0px;
+  color: #FBD28B;
+  border-top: 4px solid #FBD28B;
+  border-bottom: 4px solid #FBD28B;
 }
 
 .container .skill-list li {
-  padding: 5px 0px;
+  padding: 8px 0px;
+  margin-bottom: 3px;
   padding-left: 10px;
   color: #F3B63A;
   font-weight: bold;
 }
 
+.container .skill-list .html {
+  color: #F39C12;
+}
+
+.container .skill-list .css {
+  color: #3498DB;
+}
+
+.container .skill-list .js {
+  color: yellow;
+}
+
+.container .skill-list .c, .container .skill-list .react {
+  color: #25CCF7;
+}
+
+.container .skill-list .angular {
+  color: #E71C23;
+}
+
+.container .skill-list .node {
+  color: yellowgreen;
+}
+
+.container .skill-list .django {
+  color: #45CE30;
+}
+
+.container .skill-list .flask {
+  color: skyblue;
+}
+
+.container .skill-list .sql {
+  color: orangered;
+}
+
+.container .skill-list .mongo {
+  color: #2ecc72;
+}
+
 .container ul {
   list-style: none;
+}
+
+.container .contact {
+  margin-top: 20px;
+}
+
+.container .contact h1 {
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.container .contact p {
+  margin: 8px 0px;
+  text-align: center;
+}
+
+.container .contact form input, .container .contact form textarea {
+  width: 100%;
+  margin: 3px auto;
+  padding: 10px 10px;
+  font-size: 1em;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #222;
+  color: white;
+  border: 2px solid #6A89CC;
+}
+
+.container .contact form input[type="submit"] {
+  background-color: rgba(0, 0, 0, 0);
+  border: 4px solid #6A89CC;
+  color: white;
+  border-radius: 20px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.container .contact form input[type="submit"]:hover {
+  background-color: #6A89CC;
+  font-weight: bold;
 }
 
 .footer {
