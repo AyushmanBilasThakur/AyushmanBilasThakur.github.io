@@ -118,8 +118,6 @@ body {
   padding: 20px;
   border-radius: 20px;
   border: 4px solid #6A89CC;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
   margin-bottom: 20px;
 }
 
@@ -327,6 +325,23 @@ body {
   .container .about .button {
     font-size: 1.2em;
   }
+}
+
+[data-scroll] {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+[data-scroll="in"] {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+[data-scroll="out"] {
+  opacity: 0;
+  -webkit-transform: translateX(-1000px);
+          transform: translateX(-1000px);
 }
 
 @media screen and (max-width: 760px) {

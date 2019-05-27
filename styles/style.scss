@@ -114,7 +114,7 @@ body{
             padding: 20px;
             border-radius: 20px;
             border: 4px solid #6A89CC;
-            transition: all 0.2s ease-in;
+            // transition: all 0.2s ease-in;
             margin-bottom: 20px;
             
             h3{
@@ -322,6 +322,21 @@ body{
     //     }
     // }
     
+}
+
+[data-scroll]
+{  
+    transition: all 0.5s ease-in-out;
+}
+
+[data-scroll="in"]{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+[data-scroll="out"]{
+    opacity: 0;
+    transform: translateX(-1000px);
 }
 
 @media screen and (max-width: 760px){
