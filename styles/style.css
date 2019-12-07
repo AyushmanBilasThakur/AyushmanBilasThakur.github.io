@@ -7,13 +7,13 @@
 }
 
 body {
-  background-color: #2C3335;
+  background-color: #2c3335;
 }
 
 .header {
   background-color: #222;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 20px 20px;
   width: 100%;
   position: relative;
@@ -41,7 +41,7 @@ body {
 }
 
 .header .css {
-  color: #6A89CC;
+  color: #6a89cc;
 }
 
 .header .js {
@@ -49,7 +49,7 @@ body {
 }
 
 .header .python {
-  color: #F3B63A;
+  color: #f3b63a;
 }
 
 .header img {
@@ -67,7 +67,7 @@ body {
 }
 
 .container h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-bottom: 5px;
   font-size: 1.7em;
   color: yellow;
@@ -75,7 +75,7 @@ body {
 
 .container p {
   font-size: 0.9em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container .about {
@@ -92,7 +92,7 @@ body {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px 30px;
-  border: 2px solid #6A89CC;
+  border: 2px solid #6a89cc;
   border-radius: 20px;
   -webkit-transition: all 0.09s ease-in;
   transition: all 0.09s ease-in;
@@ -100,7 +100,7 @@ body {
 }
 
 .container .about .button:hover {
-  background-color: #6A89CC;
+  background-color: #6a89cc;
 }
 
 .container h1 {
@@ -111,16 +111,16 @@ body {
   color: white;
   padding: 20px;
   border-radius: 20px;
-  border: 4px solid #6A89CC;
+  border: 4px solid #6a89cc;
   margin-bottom: 20px;
 }
 
 .container .projects .project h3 {
-  color: #F3B63A;
+  color: #f3b63a;
   margin-bottom: 10px;
   font-size: 2em;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container .projects .project ul {
@@ -146,7 +146,7 @@ body {
 }
 
 .container .projects .project ul li a {
-  color: #F3B63A;
+  color: #f3b63a;
   font-size: 1.9em;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -158,7 +158,11 @@ body {
 }
 
 .container .projects .project ul li a:hover {
-  color: #6A89CC;
+  color: #6a89cc;
+}
+
+.container .inline-link {
+  color: yellow;
 }
 
 .container .skills {
@@ -176,40 +180,41 @@ body {
 }
 
 .container .skill-list h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   padding: 10px 0px;
-  color: #FBD28B;
-  border-top: 4px solid #FBD28B;
-  border-bottom: 4px solid #FBD28B;
+  color: #fbd28b;
+  border-top: 4px solid #fbd28b;
+  border-bottom: 4px solid #fbd28b;
 }
 
 .container .skill-list li {
   padding: 8px 0px;
   margin-bottom: 3px;
   padding-left: 10px;
-  color: #F3B63A;
+  color: #f3b63a;
   font-weight: bold;
 }
 
 .container .skill-list .html {
-  color: #F39C12;
+  color: #f39c12;
 }
 
 .container .skill-list .css {
-  color: #3498DB;
+  color: #3498db;
 }
 
 .container .skill-list .js {
   color: yellow;
 }
 
-.container .skill-list .c, .container .skill-list .react {
-  color: #25CCF7;
+.container .skill-list .c,
+.container .skill-list .react {
+  color: #25ccf7;
 }
 
 .container .skill-list .angular {
-  color: #E71C23;
+  color: #e71c23;
 }
 
 .container .skill-list .node {
@@ -217,7 +222,7 @@ body {
 }
 
 .container .skill-list .django {
-  color: #45CE30;
+  color: #45ce30;
 }
 
 .container .skill-list .flask {
@@ -250,7 +255,8 @@ body {
   text-align: center;
 }
 
-.container .contact form input, .container .contact form textarea {
+.container .contact form input,
+.container .contact form textarea {
   width: 100%;
   margin: 3px auto;
   padding: 10px 10px;
@@ -260,12 +266,12 @@ body {
   border: none;
   background-color: #222;
   color: white;
-  border: 2px solid #6A89CC;
+  border: 2px solid #6a89cc;
 }
 
 .container .contact form input[type="submit"] {
   background-color: rgba(0, 0, 0, 0);
-  border: 4px solid #6A89CC;
+  border: 4px solid #6a89cc;
   color: white;
   border-radius: 20px;
   -webkit-transition: all 0.2s ease;
@@ -273,7 +279,7 @@ body {
 }
 
 .container .contact form input[type="submit"]:hover {
-  background-color: #6A89CC;
+  background-color: #6a89cc;
   font-weight: bold;
 }
 
