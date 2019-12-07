@@ -1,5 +1,5 @@
 # Hello
 
-This is the repo containing my protfolio page
+Ayushman Bilas Thakur,a fullstack web developer. Here is my fullstack portfolio.
 
 ## [LINK](https://www.ayushmanbilasthakur.tk/)
